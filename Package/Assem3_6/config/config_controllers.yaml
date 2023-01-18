@@ -1,0 +1,50 @@
+# Robot name goes here
+Assem3_6: # change the name
+  # default controller
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+  gazebo_ros_control:
+    pid_gains:
+      front_right_wheel: 
+        p: 0.0
+        i: 0.0 
+        d: 0.0
+      front_left_wheel: 
+        p: 0.0
+        i: 0.0
+        d: 0.0
+      back_right_wheel: 
+        p: 10.0
+        i: 0.1 
+        d: 1.0
+
+      back_left_wheel: 
+        p: 10.0 
+        i: 0.1 
+        d: 1.0
+
+  # Controller 1
+  front_right_wheel: # change the name
+    type: effort_controllers/JointPositionController # Type of controller. 
+    joint: wheel_frj # Name of the joint.  
+    pid : {p: 0.0 , i: 0.o , d: 0.0} # Enter your pid values eg. {p: 100.0 , i: 0.0 , d: 0.0} 
+
+  # Controller 2
+  front_left_wheel: # change the name
+    type: effort_controllers/JointPositionController # Type of controller. 
+    joint: wheel_flj # Name of the joint.  
+    pid : {p: 0.0 , i: 0.0 , d: 0.0} # Enter your pid values eg. {p: 100.0 , i: 0.0 , d: 0.0} 
+  # Controller 3
+  back_right_wheel: # change the name
+    type: velocity_controllers/JointVelocityController # Type of controller. 
+    joint: wheel_brj # Name of the joint.  
+    pid : {p: 10.0 , i: 0.1 , d: 1.0} # Enter your pid values eg. {p: 100.0 , i: 0.0 , d: 0.0} 
+  # ....
+  # Controller n
+  back_left_wheel: # change the name
+    type: velocity_controllers/JointVelocityController # Type of controller. 
+    joint: wheel_blj # Name of the joint.  
+    pid : {p: 10.0 , i: 0.1 , d: 1.0} # Enter your pid values eg. {p: 100.0 , i: 0.0 , d: 0.0} 
+
+ 
