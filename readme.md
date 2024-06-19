@@ -61,7 +61,7 @@ To visualize laser scans with Rviz:
    ```bash
    roslaunch Assem3_6 template_launch.launch
    ```
-2.. Open Rviz in a new terminal:
+2. Open Rviz in a new terminal:
 ```bash
 rviz
 ```
