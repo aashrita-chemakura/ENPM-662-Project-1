@@ -2,10 +2,10 @@
 
 This README provides instructions on how to set up and run the different components of the Toy Car Robot project. This includes visualizations with Rviz, simulations with Gazebo, debugging tools, and running the car in a competition map.
 
-|Team Members
-|--
-|Saketh Narayan Banagiri
-|Aashrita Chemakura
+| Name                    | GitHub Profile                             |
+|-------------------------|--------------------------------------------|
+| Saketh Narayan Banagiri | [Sakethbngr](https://github.com/Sakethbngr)|
+| Aashrita Chemakura      | [aashrita-chemakura](https://github.com/aashrita-chemakura) |
 
 ## Solidworks Design
 
