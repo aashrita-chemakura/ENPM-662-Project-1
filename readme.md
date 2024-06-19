@@ -1,11 +1,17 @@
-# Toy Car Robot Using ROS
+# Toy Car Robot 
 
-This repository contains the ROS (Robot Operating System) packages necessary for operating the robot named "Assem3_6", including teleoperation scripts and visualization tools.
+This README provides instructions on how to set up and run the different components of the Toy Car Robot project. This includes visualizations with Rviz, simulations with Gazebo, debugging tools, and running the car in a competition map.
 
 |Team Members
 |--
 |Saketh Narayan Banagiri
 |Aashrita Chemakura
+
+## Solidworks Design
+
+<p align="center">
+<img width="80%" alt="car" src="toycar.png">
+</p>
 
 ## Installation
 
